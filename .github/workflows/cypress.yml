@@ -22,5 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Run Prettier check
+        run: npx prettier . --check
+
       - name: Run Cypress tests
         run: npx cypress run
