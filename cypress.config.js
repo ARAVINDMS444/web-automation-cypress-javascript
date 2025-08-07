@@ -7,6 +7,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     supportFile: false,
-    specPattern: "e2e/**/*",
+    specPattern: "tests/**/*",
   },
 });
