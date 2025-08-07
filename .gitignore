@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Cypress test results and screenshots
+cypress/screenshots/
+cypress/videos/
+
+# Cypress cache
+.cache/
+Cypress/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# VS Code
+.vscode/
+
+# GitHub Actions temp
+.github/workflows/*.log
+.github/workflows/*.tmp
+
+# Optional: Output or reports
+mochawesome-report/
+allure-results/
+allure-report/
+coverage/
